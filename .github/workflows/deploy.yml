@@ -4,7 +4,7 @@ name: Spring Boot Gradle CI/CD
 # 어디에 올릴 건지
 on:
   push:
-    branches: ["main"]
+    branches: ["master"]
   # 수동으로 Action 실행할 수 있게 해주는 옵션
   workflow_dispatch:
 
